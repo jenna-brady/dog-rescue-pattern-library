@@ -1,13 +1,11 @@
 :root {
-  --color-primary: verylightblue;
-  --color-primary-light: #8496ff;
-  --color-secondary: winterwizard;
+  --color-primary: #8496ff;
+  --color-secondary: #a3d5ff;
   --color-accent: #69a5b2;
   --color-neutral-beige: lightgray;
-  --color-whatever: #d9f0ff;
 
-  --color-primary: "Alegreta Sans", "Tredbuchet MS", Arial, sans-serif;
-  --color-sencondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --color-primary: "Open Sans", Arial, sans-serif;
+  --color-sencondary: "Droid Serif", serif;
 }
 
 html {
