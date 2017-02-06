@@ -2,12 +2,12 @@
   --color-primary: #8496ff;
   --color-secondary: #a3d5ff;
   --color-accent: #69a5b2;
-  --color-neutral-beige: lightgray;
+  --color-neutral-beige: #eee;
 
-  --color-primary: "Open Sans", Arial, sans-serif;
-  --color-sencondary: "Droid Serif", serif;
+  --font-primary: "Open Sans", arial, sans-serif;
+  --font-sencondary: "Droid Serif", serif;
 }
 
 html {
-  font-family: var (--font-primary);
+  font-family: var(--font-primary);
 }
