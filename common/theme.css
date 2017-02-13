@@ -11,3 +11,57 @@
 html {
   font-family: var(--font-primary);
 }
+
+ strong {
+  color:#536dfe;
+ }
+
+h1{
+  color:#536dfe;
+}
+
+h2{
+  color:#fff;
+}
+
+h3{
+  color:#fff;
+}
+
+.nav {
+  color:#fff;
+}
+
+.nav a:hover {
+  color:#8496ff;
+}
+
+.card {
+  color: #fff;
+}
+
+.card a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #8496ff;
+}
+
+small{
+  color: #fff;
+}
+
+ul{
+  color:#fff;
+}
+
+p{
+  color:#eee;
+}
+
+label {
+  color: #8496ff;
+}
+@media only screen and (min-width: 38em) {
+
+
+}
