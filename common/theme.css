@@ -1,11 +1,11 @@
 :root {
   --color-primary: #8496ff;
-  --color-secondary: #a3d5ff;
-  --color-accent: #69a5b2;
+  --color-secondary: #7c86b2;
+  --color-accent: #e9b44b;
   --color-neutral-beige: #eee;
 
-  --font-secondary: "Open Sans", arial, sans-serif;
-  --font-primary: "Droid Serif", serif;
+  --font-secondary: "Quicksand", sans-serif;
+  --font-primary: "Martel", serif;
 }
 
 html {
