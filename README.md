@@ -10,7 +10,7 @@ fonts:
       The secondary typeface is clean and simple, which will reflects the overall design of the website.
 
       Use secondary typeface for headings, buttons and to highlight important content.
-  colors:
+colors:
   primary: |
     The primary colour is the colour of their brand. This colour will be used for headers, nav bar, footer and anywhere to show emphasis.
   secondary: |

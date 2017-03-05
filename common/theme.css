@@ -4,8 +4,8 @@
   --color-accent: #69a5b2;
   --color-neutral-beige: #eee;
 
-  --font-primary: "Open Sans", arial, sans-serif;
-  --font-sencondary: "Droid Serif", serif;
+  --font-secondary: "Open Sans", arial, sans-serif;
+  --font-primary: "Droid Serif", serif;
 }
 
 html {
@@ -21,43 +21,42 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #000;
 }
 
 h3 {
-  color: #fff;
+  color: #000;
 }
 
 .nav {
-  color: #fff;
+  color: #000;
 }
 
 .nav a:hover {
-  color: #8496ff;
-}
-
-.card {
-  color: #fff;
-}
-
-.card a {
-  list-style-type: none;
-  text-decoration: none;
-  color: #8496ff;
+  color: var(--color-primary);
 }
 
 small {
-  color: #fff;
+  color: #000;
 }
 
 ul {
-  color: #fff;
+  color: #000;
 }
 
-p {
-  color: #eee;
-}
 
 label {
-  color: #8496ff;
+ color: var(--color-primary);
+}
+
+.dark-bg {
+  background-color: var(--color-primary);
+}
+
+mark{
+  background-color: var(--color-secondary);
+}
+
+a{
+color: var(--color-primary);
 }

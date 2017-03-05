@@ -1,0 +1,52 @@
+
+.card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.card, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.card:hover h3{
+  color: #fff;
+}
+
+.card:hover img{
+ opacity: .5;
+}
+
+.card img{
+  transition: color 1000ms linear;
+}
+
+.card-content{
+width: 100%;
+color: white;
+position: absolute;
+bottom: 1em;
+left: 1em;
+display: inline-block;
+}
+
+.dog-check{
+  border: 1px solid red;
+  color: var(--color-primary);
+}
+
+.card-dog-list{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dog-list-content{
+  width: 100%;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: inline-block;
+}
