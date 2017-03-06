@@ -11,11 +11,11 @@
   text-decoration: none;
 }
 
-.card:hover h3{
+.card:hover h3 {
   color: #fff;
 }
 
-.card:hover img{
+.card:hover img {
  opacity: .5;
 }
 
@@ -23,7 +23,7 @@
   transition: color 1000ms linear;
 }
 
-.card-content{
+.card-content {
 width: 100%;
 color: white;
 position: absolute;
@@ -32,21 +32,43 @@ left: 1em;
 display: inline-block;
 }
 
-.dog-check{
+.dog-check {
   border: 1px solid red;
   color: var(--color-primary);
 }
 
-.card-dog-list{
+.card-dog-list {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.dog-list-content{
+.dog-list-content {
   width: 100%;
   position: absolute;
   top: 1em;
   right: 1em;
   display: inline-block;
+}
+
+.read-more {
+  display: none;
+}
+
+.dog-check {
+  position: absolute;
+  left:10em;
+}
+
+.dog-check:checked ~ .read-more {
+  display: block;
+}
+
+.dog-label {
+cursor: pointer;
+}
+
+.nav-dog:checked ~ .dog-label {
+  background-color: var(--color-neutral-beige);
+
 }

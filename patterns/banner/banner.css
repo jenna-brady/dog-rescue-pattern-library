@@ -1,0 +1,13 @@
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-content{
+width: 100%;
+position: absolute;
+bottom: 5em;
+left: 2em;
+display: inline-block;
+}
