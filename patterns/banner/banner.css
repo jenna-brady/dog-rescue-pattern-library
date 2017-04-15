@@ -4,10 +4,11 @@
   overflow: hidden;
 }
 
-.banner-content{
-width: 100%;
-position: absolute;
-bottom: 5em;
-left: 2em;
-display: inline-block;
+.banner-content {
+  width: 100%;
+  position: absolute;
+  bottom: 7em;
+  left: 2em;
+  display: inline-block;
+
 }

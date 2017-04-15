@@ -4,8 +4,7 @@
   --color-accent: #e9b44b;
   --color-neutral-beige: #eee;
 
-  --font-secondary: "Quicksand", sans-serif;
-  --font-primary: "Martel", serif;
+  --font-primary: "Droid Serif", serif;
 }
 
 html {
@@ -21,11 +20,11 @@ h1 {
 }
 
 h2 {
-  color: #000;
+  color: #fff;
 }
 
 h3 {
-  color: #000;
+  color: #fff;
 }
 
 .nav {
@@ -44,19 +43,14 @@ ul {
   color: #000;
 }
 
-
 label {
- color: var(--color-primary);
+  color: #fff;
 }
 
 .dark-bg {
   background-color: var(--color-primary);
 }
 
-mark{
+mark {
   background-color: var(--color-secondary);
-}
-
-a{
-color: var(--color-primary);
 }

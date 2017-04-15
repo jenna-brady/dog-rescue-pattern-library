@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+  <link href="buttons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="box gutter push-1-2 large-text">
+    <label for="text-large">Large text box</label>
+    <input type="text" id="text-large" required>
+  </div>
+  <div class="box small-box gutter push-1-2">
+    <label for="text-small">Small text box</label>
+    <input type="text" id="text-small" required>
+  </div>
+  <div class="box gutter push-1-2">
+    <label for="subject">Option List</label>
+    <select id="subject" name="subject">
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+      <option>Option 4</option>
+      <option>Option 5</option>
+      <option>Option 6</option>
+    </select>
+  </div>
+  <fieldset>
+    <legend class="push-1 gutter">Agreement button</legend>
+    <div class="gutter">
+      <label class="agree-text push-1-4" for="agree">Lorem ipsum dolor sit amet, commodo in ipsum, lobortis turpis vivamus in ipsum mauris nunc, blandit ante vehicula, quis id ipsum adipiscing sit sit. Molestie maecenas hac mauris convallis, in viverra tempor ligula ante urna. Pulvinar sodales vitae quisque ullamcorper placerat, quisque curabitur, sollicitudin tempor felis. Fusce ante. Pellentesque urna phasellus quis, sit ligula quia.</label>
+      <input type="checkbox" id="agree" name="agree">
+      <label class="agree-text bold" for="agree">Agree</label>
+    </div>
+  </fieldset>
+</body>
+</html>

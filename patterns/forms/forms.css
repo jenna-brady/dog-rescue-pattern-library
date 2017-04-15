@@ -1,0 +1,15 @@
+.box {
+  border-color: var(--color-neutral-beige);
+}
+
+.small-box {
+  width: 50%;
+}
+
+.agree-text {
+  color: #000;
+}
+
+fieldset {
+  border-top: 0;
+}

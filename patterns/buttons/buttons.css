@@ -12,9 +12,14 @@
   color: #fff;
 }
 
+.btn-light:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-accent);
+}
+
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary);
+  border: 3px solid var(--color-primary);
 
   color: var(--color-primary);
 }

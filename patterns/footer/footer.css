@@ -1,0 +1,8 @@
+footer {
+  background-color: var(--color-accent);
+  text-align: center;
+}
+
+small {
+  color: #fff;
+}

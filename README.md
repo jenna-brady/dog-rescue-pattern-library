@@ -1,6 +1,6 @@
 ---
 name: "Super Company"
-fontUrl: "https://fonts.googleapis.com/css?family=Droid+Serif:400,400i|Open+Sans:300,400,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Droid+Serif:400,400i"
 fonts:
   primary: |
     The curves on the serifs give off a playful and welcoming appearance will and a quality this company has.
@@ -16,7 +16,7 @@ colors:
   secondary: |
       The secondary plays off the primary colour. This colour will be used for when you want to add contrast.
   neutral: |
-      The two neutral colours will be used for body copy, captions and forms.  
+      The neutral colour will be used for body copy, captions and forms.  
 ---
 
 This is the company introduction-we're so amazing and our brand signifies awesomeness

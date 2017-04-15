@@ -1,9 +1,6 @@
-
 .card {
   position: relative;
-  width: 100%;
   overflow: hidden;
-  background-color: #000;
 }
 
 .card, a {
@@ -11,30 +8,49 @@
   text-decoration: none;
 }
 
-.card:hover h3 {
-  color: #fff;
+.zoom-img {
+  overflow: hidden;
+}
+
+.card img {
+  border-color: var(--color-primary);
+  border-radius: 4px;
+  transition: all .6s ease;
 }
 
 .card:hover img {
- opacity: .5;
-}
-
-.card img{
-  transition: color 1000ms linear;
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .card-content {
-width: 100%;
-color: white;
-position: absolute;
-bottom: 1em;
-left: 1em;
-display: inline-block;
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
 }
 
-.dog-check {
-  border: 1px solid red;
-  color: var(--color-primary);
+.box-purple {
+  opacity: .4;
+  background-color: var(--color-primary);
+  display: inline-block;
+  padding-top: 100em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.box-purple:hover {
+  margin: 1em;
+  opacity: 5;
+  padding: 1em;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 4px;
 }
 
 .card-dog-list {
@@ -43,12 +59,12 @@ display: inline-block;
   overflow: hidden;
 }
 
-.dog-list-content {
-  width: 100%;
+.dog-list-overview {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 0;
+  left: 1em;
   display: inline-block;
+  color: var(--color-neutral-beige);
 }
 
 .read-more {
@@ -57,18 +73,35 @@ display: inline-block;
 
 .dog-check {
   position: absolute;
-  left:10em;
+  left: 10em;
+  border: 1px solid red;
+  color: var(--color-primary);
 }
 
 .dog-check:checked ~ .read-more {
   display: block;
+  background-color: var(--color-neutral-beige);
+}
+
+.dog-check:checked ~ .dog-info {
+  display: block;
+}
+
+.dog-check:checked ~ .dog-label {
+  transform: rotate(180deg) scale(1.3);
+  transition: transform 200ms ease;
+}
+
+.dog-check + .dog-label::before {
+  content: none;
+  display: none;
 }
 
 .dog-label {
-cursor: pointer;
+  transform: rotate(0deg);
+  transition: transform 200ms ease;
 }
 
-.nav-dog:checked ~ .dog-label {
+.dog-info {
   background-color: var(--color-neutral-beige);
-
 }
