@@ -55,6 +55,10 @@ a {
   background-color: var(--color-accent);
 }
 
+.dog-list-label {
+  color: #fff;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav li {
