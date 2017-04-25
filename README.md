@@ -1,4 +1,5 @@
 ---
+outputFile: "index.html" 
 name: "Super Company"
 fontUrl: "https://fonts.googleapis.com/css?family=Droid+Serif:400,400i"
 fonts:
