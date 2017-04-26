@@ -12,4 +12,4 @@ agree-text: |
   The agree-text should only be used when agreeing to something in the form.  
 ---
 
-The label provide a way for the user to answer different questions. It also the form to be organized and clear.
+The label provides a way for the user to answer different questions. It also helps organize the form in a clean and clear matter.

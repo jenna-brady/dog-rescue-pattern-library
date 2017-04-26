@@ -16,10 +16,3 @@
   border-color: var(--color-accent);
   background-color: var(--color-accent);
 }
-
-.btn-ghost {
-  background-color: transparent;
-  border: 3px solid var(--color-primary);
-
-  color: var(--color-primary);
-}

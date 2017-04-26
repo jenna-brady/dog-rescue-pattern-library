@@ -8,21 +8,28 @@
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,700" rel="stylesheet">
   <link href="forms.css" rel="stylesheet">
   <link href="buttons.css" rel="stylesheet">
 </head>
 <body>
   <div class="box gutter push-1-2 large-text">
+    <input type="text" id="text-large" required aria-describedby="text-large-error">
     <label for="text-large">Large text box</label>
-    <input type="text" id="text-large" required>
+    <p class="gutter-1-4 error-message milli push-0" id="text-large-error">
+      <i class="icon i-16"><img src="../../images/error.svg" alt=""></i>
+      <span class="icon-label">Please provide an answer</span>
+    </p>
   </div>
   <div class="box small-box gutter push-1-2">
+    <input type="text" id="text-small" required aria-describedby="text-small-error">
     <label for="text-small">Small text box</label>
-    <input type="text" id="text-small" required>
+    <p class="gutter-1-4 error-message milli push-0" id="text-small-error">
+      <i class="icon i-16"><img src="../../images/error.svg" alt=""></i>
+      <span class="icon-label">Please provide an answer</span>
+    </p>
   </div>
   <div class="box gutter push-1-2">
-    <label for="subject">Option List</label>
     <select id="subject" name="subject">
       <option>Option 1</option>
       <option>Option 2</option>
@@ -31,13 +38,18 @@
       <option>Option 5</option>
       <option>Option 6</option>
     </select>
+    <label for="subject">Option List</label>
   </div>
   <fieldset>
     <legend class="push-1 gutter">Agreement button</legend>
     <div class="gutter">
       <label class="agree-text push-1-4" for="agree">Lorem ipsum dolor sit amet, commodo in ipsum, lobortis turpis vivamus in ipsum mauris nunc, blandit ante vehicula, quis id ipsum adipiscing sit sit. Molestie maecenas hac mauris convallis, in viverra tempor ligula ante urna. Pulvinar sodales vitae quisque ullamcorper placerat, quisque curabitur, sollicitudin tempor felis. Fusce ante. Pellentesque urna phasellus quis, sit ligula quia.</label>
-      <input type="checkbox" id="agree" name="agree">
+      <input type="checkbox" id="agree" name="agree" required aria-describedby="agree-error">
       <label class="agree-text bold" for="agree">Agree</label>
+      <p class="gutter-1-4 error-message milli push-0" id="agree-error">
+        <i class="icon i-16"><img src="../../images/error.svg" alt=""></i>
+        <span class="icon-label">Please agree</span>
+      </p>
     </div>
   </fieldset>
 </body>

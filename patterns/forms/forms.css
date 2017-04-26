@@ -2,6 +2,10 @@
   border-color: var(--color-accent);
 }
 
+.reference-title {
+  color: #bababa;
+}
+
 .small-box {
   width: 70%;
 }
